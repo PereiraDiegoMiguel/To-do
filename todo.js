@@ -1,7 +1,7 @@
 const listElement = document.querySelector('#app ul');
 const inputElement = document.querySelector('#app input');
 const buttonElement = document.querySelector('#app button');
-//const todos = ["Fazer coffee", "Estudar", "Programar"];
+
 const todos = JSON.parse(localStorage.getItem('list_todos')) || [];
 
 function rederTodos() {
